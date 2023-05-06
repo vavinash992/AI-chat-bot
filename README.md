@@ -29,3 +29,12 @@
     by default it runs in the following website http://127.0.0.1:5000/
 
 
+## Training the model on new questions
+
+- Go to data.json file and question in patterns and the response, than assign it a tag and context.
+
+- Than run the Training.py file using the following command
+
+```bash
+    $ python3 Training.py
+```
