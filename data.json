@@ -1,0 +1,371 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through the admission process", "I can give you details about the University", "I can give you details about fee structure", "I can give you details about the courses offered"],
+         "context": [""]
+        },
+        {"tag": "about_college",
+        "patterns": ["what is GITAM Fullform"],
+        "responses": ["GITAM stands for Gandhi Institute of Technology and Management"],
+        "context": [""]
+       },
+       {
+        "tag": "library",
+        "patterns": ["what is library timing", "library timing", "library hours"],
+        "responses": ["Library is open from 8:00 AM to 8:00 PM"],
+        "context": [""]
+       },
+       {
+        "tag":"guide_admission",
+        "patterns":["guide me","guide me through the admission process","guide me through the admission"],
+        "responses":["for the admission process you need to fill the application form and submit it to the college the application form is available on the college website"],
+        "context":[""]
+       },
+       {
+        "tag":"about_me",
+        "patterns":["who are you","what is your name","what is your purpose"],
+        "responses":["I am a chatbot created by the students of GITAM University and my name is G-Chat"],
+        "context":[""]
+       },
+       {
+        "tag":"locations",
+        "patterns":["where is the college located","where is the college","where is the university located","where is the university"],
+        "responses":["GITAM University has three campuses - Visakhapatnam, Hyderabad, and Bangalore."],
+        "context":[""]
+       },
+       {
+        "tag":"schools",
+        "patterns":["what are the schools in the university","what are the schools in the college","what are the schools in the university","what are the schools in the college","What are the different schools of GITAM University?"],
+        "responses":["GITAM University has ten schools - School of Technology, School of Science, School of Pharmacy, School of Law, School of Management, School of Architecture, School of International Business, School of Gandhian Studies, School of Humanities and Social Sciences, and School of Nursing."],
+        "context":[""]
+       },
+       {
+        "tag":"NAAC",
+        "patterns":["what is the NAAC rating of the college","what is the NAAC rating of the university","Is GITAM University accredited?"],
+        "responses":["GITAM University is accredited by the National Assessment and Accreditation Council (NAAC) with an A+ grade."],
+        "context":[""]
+       },
+       {
+        "tag":"courses",
+        "patterns":["what are the courses offered by the college","what are the courses offered by the university","What are some of the popular courses offered by GITAM University?"],
+        "responses":["GITAM University offers a variety of undergraduate, postgraduate, and doctoral programs in fields such as engineering, management, law, pharmacy, science, humanities, and social sciences. Some of the popular courses include B.Tech, MBA, M.Tech, B.Pharm, M.Pharm, LLB, BBA, B.Com, and BA."],
+        "context":[""]
+       },
+       {
+        "tag":"distance_learning",
+        "patterns":["Does GITAM University offer distance education?", "Does GITAM University have distance learning?", "Does the college offer distance learning?"],
+        "responses":["Yes, GITAM University offers distance education programs through its Directorate of Distance Education (DDE)."],
+        "context":[""]
+       },
+       {
+        "tag":"facilities",
+        "patterns":["what are the facilities provided by the college","what are the facilities provided by the university","What are the facilities provided by GITAM University?","What are some of the facilities available at GITAM University?"],
+        "responses":["GITAM University has state-of-the-art infrastructure and facilities such as modern classrooms, well-equipped laboratories, a central library, sports facilities, hostels, a health center, a food court, and transportation services."],
+        "context":[""]
+       },
+       {
+        "tag":"collabrations",
+        "patterns":["what are the collabrations of the college","what are the collabrations of the university","What are the collaborations of GITAM University?","Does GITAM University have international collaborations?"],
+        "responses":["Yes, GITAM University has collaborations with several universities and institutions in countries such as the USA, UK, Australia, Germany, Japan, South Korea, and Taiwan."],
+        "context":[""]
+       },
+       {
+        "tag":"research",
+        "patterns":["what are the research areas of the college","what are the research areas of the university","What are the research areas of GITAM University?","What are some of the research centers and institutes at GITAM University?"],
+        "responses":["GITAM University has several research centers and institutes such as the Center for Environmental Studies, Center for Sustainable Development, Center for Robotics and Automation, Center for Nano Science and Technology, and Institute for Management Studies."],
+        "context":[""]
+       },
+       {
+        "tag":"vision",
+        "patterns":["what is the vision of the college","what is the vision of the university","What is the vision of GITAM University?"],
+        "responses":["The vision of GITAM University is to become a global leader in higher education and research, producing socially responsible graduates and contributing to the development of society."],
+        "context":[""]
+       },
+       {
+        "tag":"admission_exam",
+        "patterns":["what is the admission exam for the college","what is the admission exam for the university","What is the admission exam for GITAM University?"],
+        "responses":["GITAM University conducts its own entrance exam for admission to its undergraduate and postgraduate programs. The exam is called GITAM Admission Test (GAT)."],
+        "context":[""]
+       },
+        
+       {    
+        "tag": "admission_exam",
+        "patterns": ["what is the admission exam for the college","what is the admission exam for the university","What is the admission exam for GITAM University?"    ],
+        "responses": ["GITAM University conducts its own entrance exam for admission to its undergraduate and postgraduate programs. The exam is called GITAM Admission Test (GAT)."],
+        "context": [""]
+        },
+
+
+  {
+    "tag": "postgraduate_admission",
+    "patterns": [
+      "What is the admission process for postgraduate programs at GITAM University?",
+      "How do I get admission to a postgraduate program at GITAM University?",
+      "What are the eligibility criteria for postgraduate programs at GITAM University?"
+    ],
+    "responses": [
+      "The admission process for postgraduate programs at GITAM University is based on the marks obtained in the qualifying examination, followed by a personal interview."
+    ],
+    "context": [""]
+  },
+  {
+    "tag": "scholarships",
+    "patterns": [
+      "Does GITAM University provide scholarships?",
+      "How can I apply for scholarships at GITAM University?",
+      "What are the criteria for getting a scholarship at GITAM University?"
+    ],
+    "responses": [
+      "Yes, GITAM University provides scholarships to meritorious and deserving students based on academic performance, financial need, and other criteria."
+    ],
+    "context": [""]
+  },
+  {
+    "tag": "duration",
+    "patterns": [
+      "What is the duration of the academic programs at GITAM University?",
+      "How long are the undergraduate programs at GITAM University?",
+      "What is the duration of the postgraduate programs at GITAM University?"
+    ],
+    "responses": [
+      "The duration of the academic programs at GITAM University varies depending on the program. For undergraduate programs, it is typically four years, while for postgraduate programs, it is two years."
+    ],
+    "context": [""]
+  },
+  {
+    "tag": "campuses",
+    "patterns": [
+      "What are the different campuses of GITAM University?",
+      "Where are the different campuses of GITAM University located?",
+      "Does GITAM University have campuses outside India?"
+    ],
+    "responses": [
+      "GITAM University has three campuses - Visakhapatnam, Hyderabad, and Bangalore."
+    ],
+    "context": [""]
+  },
+  {
+    "tag": "ranking",
+    "patterns": [
+      "What is the ranking of GITAM University in India?",
+      "How does GITAM University rank among all universities in India?",
+      "Is GITAM University a top-ranked university in India?"
+    ],
+    "responses": [
+      "According to the National Institutional Ranking Framework (NIRF) 2021, GITAM University is ranked 71st among all universities in India."
+    ],
+    "context": [""]
+  },
+
+  {
+    "tag": "placements",
+    "patterns": [
+        "What is the placement scenario at GITAM University?",
+        "Does GITAM University have a good placement record?",
+        "Which are the top companies that visit GITAM University for placements?"
+    ],
+    "responses": [
+        "GITAM University has a good placement record, with over 500 companies visiting the campus for placements every year. Some of the top recruiters at GITAM University include Amazon, TCS, Wipro, Accenture, Infosys, IBM, Cognizant, Deloitte, and Capgemini, among others."
+    ],
+    "context": [""]
+},
+{
+    "tag": "faculty",
+    "patterns": [
+        "What is the faculty strength at GITAM University?",
+        "Does GITAM University have highly qualified faculty members?",
+        "What are the qualifications of the faculty members at GITAM University?"
+    ],
+    "responses": [
+        "GITAM University has a highly qualified and experienced faculty with over 800 full-time faculty members and over 400 visiting faculty members. Most of the faculty members have a PhD degree in their respective fields, and some of them have post-doctoral research experience as well."
+    ],
+    "context": [""]
+},
+{
+    "tag": "fees",
+    "patterns": [
+        "What is the fees structure for undergraduate courses at GITAM University?",
+        "What is the fees structure for postgraduate courses at GITAM University?",
+        "How much does it cost to study at GITAM University?"
+    ],
+    "responses": [
+        "The fees structure for undergraduate courses at GITAM University varies depending on the program, and ranges from around Rs. 1.5 lakhs per year to Rs. 3.5 lakhs per year. The fees structure for postgraduate courses also varies depending on the program, and ranges from around Rs. 1 lakh per year to Rs. 2.5 lakhs per year."
+    ],
+    "context": [""]
+},
+{
+    "tag": "scholarships",
+    "patterns": [
+        "Does GITAM University offer scholarships to students?",
+        "What are the scholarship schemes available at GITAM University?",
+        "How can I apply for a scholarship at GITAM University?"
+    ],
+    "responses": [
+        "Yes, GITAM University offers scholarships to meritorious and deserving students to help them pursue their education. The university offers various scholarship schemes, including merit scholarships, need-based scholarships, sports scholarships, and scholarships for students from economically weaker sections of society. Students can apply for scholarships at the time of admission or during their course of study."
+    ],
+    "context": [""]
+},
+{
+    "tag": "fee_structure_help",
+    "patterns": [
+        "I need help with the fees structure at GITAM University.",
+        "Can you explain the fees structure in detail?",
+        "How can I get more information about the fees structure at GITAM University?"
+    ],
+    "responses": [
+        "Sure, you can visit the official website of GITAM University to get detailed information about the fees structure for various courses. You can also contact the admissions office at the university for more information and assistance with the fees structure."
+    ],
+    "context": [""]
+},
+{
+    "tag": "library",
+    "patterns": [
+        "What is the library like at GITAM University?",
+        "What resources are available at the library of GITAM University?",
+        "What are the opening hours of the library at GITAM University?"
+    ],
+    "responses": [
+        "The library at GITAM University is a state-of-the-art facility with a vast collection of books, journals, e-books, and other resources. It has a seating capacity of around 800 students, and is equipped with modern amenities like Wi-Fi, air-conditioning, and printing facilities. The library is open from Monday to Saturday, from 9:00 am to 8:00 pm, and on Sundays from 9:00 am to 1:00 pm."
+    ],
+    "context": [""]
+},
+{
+    "tag": "hostel",
+    "patterns": [
+        "What are the hostel facilities like at GITAM University?",
+        "Does GITAM University provide hostel accommodation to students?",
+        "How can I apply for hostel accommodation at GITAM University?"
+    ],
+    "responses": [
+        "GITAM University provides hostel accommodation to both male and female students. The hostels are well-equipped with modern amenities like Wi-Fi, CCTV cameras, laundry facilities, and recreational facilities like TV rooms and sports facilities. The hostels are located within the campus, and offer a safe and comfortable living environment. Students can apply for hostel accommodation at the time of admission or during their course of study."
+    ],
+    "context": [""]
+},
+{
+    "tag": "sports_facilities",
+    "patterns": [
+        "What kind of sports facilities are available at GITAM University?",
+        "Does GITAM University have a sports complex?",
+        "What are the outdoor and indoor sports facilities available at GITAM University?"
+    ],
+    "responses": [
+        "GITAM University has a state-of-the-art sports complex with facilities for various indoor and outdoor sports. The complex includes a multipurpose indoor stadium, an Olympic-sized swimming pool, a cricket ground, a football ground, a basketball court, a volleyball court, a tennis court, and a badminton court. The university also has a gymnasium with modern equipment and a team of certified trainers."
+    ],
+    "context": [""]
+},
+{
+    "tag": "laboratories",
+    "patterns": [
+        "What kind of laboratories are available at GITAM University?",
+        "Are there any specialized laboratories at GITAM University?",
+        "What are the facilities provided in the laboratories at GITAM University?"
+    ],
+    "responses": [
+        "GITAM University has well-equipped laboratories with state-of-the-art facilities to provide practical training to students. The university has specialized laboratories for various disciplines, including engineering, sciences, pharmacy, and management. The laboratories are equipped with the latest equipment and software to facilitate research and development. The university also provides support staff to assist students with their experiments and projects."
+    ],
+    "context": [""]
+},
+{
+    "tag": "computer_labs",
+    "patterns": [
+        "Does GITAM University have computer labs?",
+        "What are the computer lab facilities like at GITAM University?",
+        "What kind of software is available in the computer labs of GITAM University?"
+    ],
+    "responses": [
+        "GITAM University has modern computer labs equipped with the latest hardware and software to provide practical training to students. The labs are equipped with high-speed internet, printers, and scanners, and have a seating capacity of around 800 students. The labs have software for various applications, including programming, simulation, design, and analysis. The university also provides technical support to students for troubleshooting and maintenance."
+    ],
+    "context": [""]
+},
+{
+    "tag": "research_facilities",
+    "patterns": [
+        "What kind of research facilities are available at GITAM University?",
+        "Are there any specialized research facilities at GITAM University?",
+        "What are the facilities provided for research at GITAM University?"
+    ],
+    "responses": [
+        "GITAM University has world-class research facilities to facilitate cutting-edge research and innovation. The university has specialized research centers for various disciplines, including nanotechnology, renewable energy, pharmaceuticals, and analytics. The research facilities are equipped with state-of-the-art equipment and software to support advanced research and development. The university also provides support staff and funding opportunities to facilitate research projects."
+    ],
+    "context": [""]
+},
+{
+    "tag": "contact_info",
+    "patterns": [
+        "What is the contact information for GITAM University?",
+        "How can I contact GITAM University?",
+        "Where can I find the contact details for GITAM University?"
+    ],
+    "responses": [
+        "You can find the contact information for GITAM University on their official website. The website provides phone numbers, email addresses, and physical addresses for each campus. You can also find the contact details for specific departments and offices on the website. If you have any further questions, you can email or call the university's main office for assistance."
+    ],
+    "context": [""]
+},
+{
+    "tag": "admissions_office",
+    "patterns": [
+        "How can I contact the admissions office at GITAM University?",
+        "What is the email address of the admissions office at GITAM University?",
+        "Can you provide the phone number for the admissions office at GITAM University?"
+    ],
+    "responses": [
+        "You can contact the admissions office at GITAM University by phone or email. The phone number for the admissions office is available on the university's website. The email address for the admissions office is also available on the website, and you can send your queries to the email address. Additionally, the university also has a physical address for the admissions office that you can visit in person for assistance."
+    ],
+    "context": [""]
+},
+{
+    "tag": "placement_cell",
+    "patterns": [
+        "How can I contact the placement cell at GITAM University?",
+        "What is the email address of the placement cell at GITAM University?",
+        "Can you provide the phone number for the placement cell at GITAM University?",
+        "contact placement cell"
+    ],
+    "responses": [
+        "You can contact the placement cell at GITAM University by phone or email. The phone number for the placement cell is available on the university's website. The email address for the placement cell is also available on the website, and you can send your queries to the email address. Additionally, the university also has a physical address for the placement cell that you can visit in person for assistance."
+    ],
+    "context": [""]
+},
+{
+    "tag": "official_website",
+    "patterns": [
+        "What is the official website of GITAM University?",
+        "Where can I find the official website of GITAM University?",
+        "Can you provide me with the URL of GITAM University's website?",
+        "website"
+    ],
+    "responses": [
+        "The official website of GITAM University is https://www.gitam.edu/. On the website, you can find information about the university's programs, admission requirements, campus facilities, student life, and more. You can also find contact information for each campus, as well as information about the university's research initiatives and collaborations. The website is regularly updated with news and events related to the university, so be sure to check back often for the latest updates."
+    ],
+    "context": [""]
+},
+{
+    "tag":"college_name",
+    "patterns":["What is the college name?","What is the name of the college?","What is the name of the university?","What is the name of the institute?","What is the name of the institution?","What is the name of the school?","What is the name of the"],
+    "responses":["GITAM University"],
+    "context": [""]
+}
+
+
+   ]    
+}   
