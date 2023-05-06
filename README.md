@@ -1,5 +1,10 @@
 # AI chat bot
 
+An AI chatbot that utilizes natural language processing and neural networks is a software program that can understand natural language queries and provide human-like responses. Natural language processing allows the chatbot to understand the intent and meaning behind a user's message, and neural networks enable it to learn and improve over time by analyzing large amounts of data.
+
+The frontend of this chatbot is designed to be easily customizable and adaptable to a variety of use cases. Whether you want to create a customer service chatbot for your business, a personal assistant to help with daily tasks, or a chatbot to provide information and support for a specific topic, the frontend can be tailored to meet your specific needs.
+
+
 
 ![crypto](https://github.com/vavinash992/AI-chat-bot/blob/main/static/Screenshot%20from%202023-05-06%2009-18-50.png)
 ## Packages used
